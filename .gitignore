@@ -1,0 +1,8 @@
+# SystemVibe exclusions
+.DS_Store
+__MACOSX
+.idea/
+.vscode/
+
+# Ignore roadmap
+docs/roadmap.md

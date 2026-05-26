@@ -20,7 +20,7 @@ phpunit.xml.dist
 *.code-workspace
 
 # Documentation
-roadmap.md
+docs/roadmap.md
 CHANGELOG.md
 
 # Build artifacts
