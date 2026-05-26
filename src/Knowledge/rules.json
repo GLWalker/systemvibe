@@ -1,0 +1,46 @@
+{
+  "rules": [
+    {
+      "id": "ability.registered",
+      "label": "Ability registered successfully",
+      "severity": "error",
+      "target": "ability"
+    },
+    {
+      "id": "ability.has.label",
+      "label": "Ability has a label string",
+      "severity": "error",
+      "target": "ability"
+    },
+    {
+      "id": "ability.has.description",
+      "label": "Ability has a description string",
+      "severity": "warning",
+      "target": "ability"
+    },
+    {
+      "id": "ability.has.category",
+      "label": "Ability is assigned to a category",
+      "severity": "error",
+      "target": "ability"
+    },
+    {
+      "id": "ability.has.valid_input_schema",
+      "label": "input_schema is a valid object shape",
+      "severity": "error",
+      "target": "ability"
+    },
+    {
+      "id": "ability.has.valid_output_schema",
+      "label": "output_schema is a valid object shape",
+      "severity": "error",
+      "target": "ability"
+    },
+    {
+      "id": "ability.rest_visibility_known",
+      "label": "Ability has a known REST visibility status",
+      "severity": "warning",
+      "target": "ability"
+    }
+  ]
+}

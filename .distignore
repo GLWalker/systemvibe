@@ -1,0 +1,31 @@
+# Packaging exclusions for SystemVibe plugin distribution
+
+# Runtime data — NEVER include in plugin ZIP
+/runtime/
+runtime/
+
+# Development & tooling
+/tools/
+/tests/
+*.test.php
+*.spec.js
+phpunit.xml
+phpunit.xml.dist
+.phpunit.result.cache
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+
+# Documentation
+roadmap.md
+CHANGELOG.md
+
+# Build artifacts
+node_modules/
+package-lock.json
+yarn.lock
+.env
+.env.*
